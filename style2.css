@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    font-family: 'segoe ui' , 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.my-from {
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgb(0, 0, 0, 0.05);
+    box-sizing: border-box;
+}
+
+.my-from h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.from-div {
+    margin-bottom: 18px;
+}
+
+.from-div label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #333;
+    font-size: 14px;
+}
+
+.from-div input[type="text"]
+.from-div input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.from-div input[style="text"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.from-row {
+    display: flex;
+    gap: 1;
+}
+
+from-row .from-div {
+    flex: 1;
+}
+
+.from-row-inline {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+    padding: 12px;
+    background: #f9f9f9;
+    border-radius: 6px;
+    border: 1px solid #eee;
+}
+
+.from-tom {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.bulkon {
+    width: 100%;
+    height: 45px;
+     color: #333;
+    background: rgba(0, 0, 255, 0.637);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+}

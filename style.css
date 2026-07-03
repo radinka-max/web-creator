@@ -1,0 +1,73 @@
+*, 
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #333
+}
+
+.pal {
+    font-size: 25;
+    color: azure;
+}
+
+.linin {
+    color: azure;
+    font-size: 25px;
+}
+
+.div-conten {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.a-conten {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.konten {
+   height: 70%;
+   width: 70%;
+}
+
+.anin {
+    color: azure;
+    text-decoration: none;
+}
+
+.divis {
+    background-color: aquamarine;
+    width: 100%;
+    height: 100px;
+}
+
+.ulin {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+
+}
+
+.lisin {
+    list-style-type: none;
+    padding: 25px;
+    margin: 5px;
+    color: azure;
+
+}
+
+.lisin:hover {
+    background-color: blueviolet;
+    transition: .5s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 8px;
+}
